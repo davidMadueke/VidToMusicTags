@@ -1,5 +1,7 @@
 # VidToMusicTags
 [colab link](https://colab.research.google.com/drive/1rAfH-n_y6CUZ8TiqwZitqarVEKF5p69C#scrollTo=6hmqP2xSszM0)
+
+
 This notebook serves as a prototype for the AI workflow of classifying videos into natural language tags that are compatible with large music publishing libraries and their set of database tags.
 
 Currently, the main problems associated with the current Video to Music Tags workflows is the cost of having to train a vision based model to perform multi-class classification on video frames, which suffers from training and testing costs and lack of flexibility in retroactively choosing different tags to perform classification on.
